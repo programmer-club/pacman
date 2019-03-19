@@ -9,6 +9,23 @@ void settings(){
 
 void setup(){
   // Load images, setup game
+  
+  // IMPORTANT: Images should be put in /data/ folder that is directly next to the .pde files
+  // So something like this:
+  /*
+  
+  pacman/
+  -- README.md
+  -- PacmanGame/
+  -- -- PacmanGame.pde
+  -- -- *more .pde files* 
+  -- -- Level.pde
+  -- -- -- data/
+  -- -- -- -- image1.png
+  -- -- -- -- *more image files*
+  -- -- -- -- image2.png
+  
+  */
 }
 
 void draw(){
